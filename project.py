@@ -28,7 +28,9 @@ with st.sidebar:
 
     model_name = st.selectbox(
         "Choose model",
-        ["gemini-3.1-flash-lite"]
+        ["gemini-3.8-flash",       # Standard, fast, and balanced model
+        "gemini-3.5-flash-lite",  # Low cost, fast response times
+        "gemini-3.1-pro"]
     )
 
     st.markdown("---")
